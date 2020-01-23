@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78a6c0c-9d8a-45e3-be6f-fb776c97fec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/swagger.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/restapi/payroll/LoadDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/restapi/payroll/LoadDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/restapi/payroll/employee/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/restapi/payroll/employee/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/swagger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/restapi/payroll/EmployeeResourceAssembler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/restapi/payroll/LoadDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/restapi/payroll/LoadDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/restapi/payroll/order/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/restapi/payroll/order/OrderController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,58 +70,72 @@
       <option name="project" value="LOCAL" />
       <updated>1579717668543</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="started implementing the swagger structure">
+      <created>1579792058176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579792058176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="uploading the local files" />
-    <option name="LAST_COMMIT_MESSAGE" value="uploading the local files" />
+    <MESSAGE value="started implementing the swagger structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="started implementing the swagger structure" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="502" y="100" width="907" height="796" key="CommitChangelistDialog2" timestamp="1579717668167">
-      <screen x="0" y="25" width="1920" height="950" />
-    </state>
-    <state x="502" y="100" width="907" height="796" key="CommitChangelistDialog2/0.25.1920.950@0.25.1920.950" timestamp="1579717668167" />
-    <state x="99" y="131" width="1922" height="949" maximized="true" key="DiffContextDialog" timestamp="1579791382382">
+    <state x="502" y="106" width="907" height="796" key="CommitChangelistDialog2" timestamp="1579792057766">
       <screen x="0" y="31" width="1920" height="944" />
     </state>
-    <state x="99" y="131" width="1922" height="949" maximized="true" key="DiffContextDialog/0.31.1920.944@0.31.1920.944" timestamp="1579791382382" />
+    <state x="502" y="100" width="907" height="796" key="CommitChangelistDialog2/0.25.1920.950@0.25.1920.950" timestamp="1579717668167" />
+    <state x="502" y="106" key="CommitChangelistDialog2/0.31.1920.944@0.31.1920.944" timestamp="1579792057766" />
+    <state x="99" y="131" width="1922" height="949" maximized="true" key="DiffContextDialog" timestamp="1579793398033">
+      <screen x="0" y="31" width="1920" height="944" />
+    </state>
+    <state x="99" y="131" width="1922" height="949" maximized="true" key="DiffContextDialog/0.31.1920.944@0.31.1920.944" timestamp="1579793398033" />
     <state x="743" y="263" width="426" height="485" key="FileChooserDialogImpl" timestamp="1579783095642">
       <screen x="0" y="31" width="1920" height="944" />
     </state>
     <state x="743" y="263" width="426" height="485" key="FileChooserDialogImpl/0.31.1920.944@0.31.1920.944" timestamp="1579783095642" />
-    <state width="1874" height="244" key="GridCell.Tab.0.bottom" timestamp="1579792022534">
+    <state width="1874" height="244" key="GridCell.Tab.0.bottom" timestamp="1579808534543">
       <screen x="0" y="31" width="1920" height="944" />
     </state>
-    <state width="1874" height="244" key="GridCell.Tab.0.bottom/0.31.1920.944@0.31.1920.944" timestamp="1579792022534" />
-    <state width="1874" height="244" key="GridCell.Tab.0.center" timestamp="1579792022533">
+    <state width="1874" height="244" key="GridCell.Tab.0.bottom/0.31.1920.944@0.31.1920.944" timestamp="1579808534543" />
+    <state width="1874" height="244" key="GridCell.Tab.0.center" timestamp="1579808534542">
       <screen x="0" y="31" width="1920" height="944" />
     </state>
-    <state width="1874" height="244" key="GridCell.Tab.0.center/0.31.1920.944@0.31.1920.944" timestamp="1579792022533" />
-    <state width="1874" height="244" key="GridCell.Tab.0.left" timestamp="1579792022533">
+    <state width="1874" height="244" key="GridCell.Tab.0.center/0.31.1920.944@0.31.1920.944" timestamp="1579808534542" />
+    <state width="1874" height="244" key="GridCell.Tab.0.left" timestamp="1579808534542">
       <screen x="0" y="31" width="1920" height="944" />
     </state>
-    <state width="1874" height="244" key="GridCell.Tab.0.left/0.31.1920.944@0.31.1920.944" timestamp="1579792022533" />
-    <state width="1874" height="244" key="GridCell.Tab.0.right" timestamp="1579792022534">
+    <state width="1874" height="244" key="GridCell.Tab.0.left/0.31.1920.944@0.31.1920.944" timestamp="1579808534542" />
+    <state width="1874" height="244" key="GridCell.Tab.0.right" timestamp="1579808534543">
       <screen x="0" y="31" width="1920" height="944" />
     </state>
-    <state width="1874" height="244" key="GridCell.Tab.0.right/0.31.1920.944@0.31.1920.944" timestamp="1579792022534" />
+    <state width="1874" height="244" key="GridCell.Tab.0.right/0.31.1920.944@0.31.1920.944" timestamp="1579808534543" />
     <state x="464" y="140" width="992" height="731" key="SettingsEditor" timestamp="1579787976682">
       <screen x="0" y="31" width="1920" height="944" />
     </state>
     <state x="464" y="140" width="992" height="731" key="SettingsEditor/0.31.1920.944@0.31.1920.944" timestamp="1579787976682" />
-    <state x="555" y="236" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1579717686061">
-      <screen x="0" y="25" width="1920" height="950" />
+    <state x="555" y="241" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1579792202590">
+      <screen x="0" y="31" width="1920" height="944" />
     </state>
     <state x="555" y="236" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.950@0.25.1920.950" timestamp="1579717686061" />
-    <state x="653" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1579788016979">
+    <state x="555" y="241" key="Vcs.Push.Dialog.v2/0.31.1920.944@0.31.1920.944" timestamp="1579792202590" />
+    <state x="653" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1579802930259">
       <screen x="0" y="31" width="1920" height="944" />
     </state>
-    <state x="653" y="333" key="com.intellij.ide.util.TipDialog/0.31.1920.944@0.31.1920.944" timestamp="1579788016979" />
-    <state x="651" y="299" width="610" height="413" key="git4idea.merge.GitPullDialog" timestamp="1579786968315">
+    <state x="653" y="333" key="com.intellij.ide.util.TipDialog/0.31.1920.944@0.31.1920.944" timestamp="1579802930259" />
+    <state x="651" y="299" width="610" height="413" key="git4idea.merge.GitPullDialog" timestamp="1579792185324">
       <screen x="0" y="31" width="1920" height="944" />
     </state>
-    <state x="651" y="299" width="610" height="413" key="git4idea.merge.GitPullDialog/0.31.1920.944@0.31.1920.944" timestamp="1579786968315" />
+    <state x="651" y="299" width="610" height="413" key="git4idea.merge.GitPullDialog/0.31.1920.944@0.31.1920.944" timestamp="1579792185324" />
+    <state x="623" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1579792804451">
+      <screen x="0" y="31" width="1920" height="944" />
+    </state>
+    <state x="623" y="237" width="672" height="678" key="search.everywhere.popup/0.31.1920.944@0.31.1920.944" timestamp="1579792804451" />
   </component>
 </project>
