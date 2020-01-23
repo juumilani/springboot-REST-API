@@ -1,0 +1,103 @@
+openapi: 2.0
+info:
+  version: 1.0.0
+  title: Simple Spring Boot API
+  description: A simple API to illustrate Spring Boot and REST concepts
+
+servers:
+  - url: https://localhost:8080
+
+# Basic authentication
+components:
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+
+  schemas:
+    # idk how to put in the links yet
+    Employee:
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        role:
+          type: string
+      # if the id is auto generated does it need to be required?
+      required:
+        - id
+
+
+security:
+  - BasicAuth: []
+
+
+# im only going to input the 'known' responses for now
+paths:
+
+  /employees:
+    get:
+      description: returns a list of all employees
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Employee'
+                type: array
+                items:
+                  type: object
+        '400':
+          $ref: '#/components/responses/400error'
+
+      post:
+        description: creates a new employee
+        requestBody:
+          required: true
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  firstName: string
+                  lastName: string
+                  role: string
+        responses:
+          '200':
+            description: created
+          '400':
+            description: invalid method
+
+  /employees/{id}:
+    get:
+      description: returns a specific employee based on their id
+      parameters:
+        - id: id
+          in: path
+          required: true
+          description: the id of the user to be returned
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/Employee'
+        '400':
+          description: invalid method
+        '404':
+          description: user not found
+
+
+
+
+
+

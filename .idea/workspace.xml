@@ -1,19 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e78a6c0c-9d8a-45e3-be6f-fb776c97fec6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/swagger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/restapi/payroll/LoadDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/restapi/payroll/LoadDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/restapi/payroll/employee/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/restapi/payroll/employee/EmployeeController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WlHozBOHEW1CNksaFkB4F1z2Ur" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PayrollApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.restapi.payroll.PayrollApplication" />
+      <module name="rest-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorial.restapi.payroll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PayrollApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e78a6c0c-9d8a-45e3-be6f-fb776c97fec6" name="Default Changelist" comment="" />
+      <created>1579717439330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579717439330</updated>
+    </task>
+    <task id="LOCAL-00001" summary="uploading the local files">
+      <created>1579717668543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579717668543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="uploading the local files" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploading the local files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="502" y="100" width="907" height="796" key="CommitChangelistDialog2" timestamp="1579717598413">
+    <state x="502" y="100" width="907" height="796" key="CommitChangelistDialog2" timestamp="1579717668167">
       <screen x="0" y="25" width="1920" height="950" />
     </state>
-    <state x="502" y="100" width="907" height="796" key="CommitChangelistDialog2/0.25.1920.950@0.25.1920.950" timestamp="1579717598413" />
+    <state x="502" y="100" width="907" height="796" key="CommitChangelistDialog2/0.25.1920.950@0.25.1920.950" timestamp="1579717668167" />
+    <state x="99" y="131" width="1922" height="949" maximized="true" key="DiffContextDialog" timestamp="1579791382382">
+      <screen x="0" y="31" width="1920" height="944" />
+    </state>
+    <state x="99" y="131" width="1922" height="949" maximized="true" key="DiffContextDialog/0.31.1920.944@0.31.1920.944" timestamp="1579791382382" />
+    <state x="743" y="263" width="426" height="485" key="FileChooserDialogImpl" timestamp="1579783095642">
+      <screen x="0" y="31" width="1920" height="944" />
+    </state>
+    <state x="743" y="263" width="426" height="485" key="FileChooserDialogImpl/0.31.1920.944@0.31.1920.944" timestamp="1579783095642" />
+    <state width="1874" height="244" key="GridCell.Tab.0.bottom" timestamp="1579792022534">
+      <screen x="0" y="31" width="1920" height="944" />
+    </state>
+    <state width="1874" height="244" key="GridCell.Tab.0.bottom/0.31.1920.944@0.31.1920.944" timestamp="1579792022534" />
+    <state width="1874" height="244" key="GridCell.Tab.0.center" timestamp="1579792022533">
+      <screen x="0" y="31" width="1920" height="944" />
+    </state>
+    <state width="1874" height="244" key="GridCell.Tab.0.center/0.31.1920.944@0.31.1920.944" timestamp="1579792022533" />
+    <state width="1874" height="244" key="GridCell.Tab.0.left" timestamp="1579792022533">
+      <screen x="0" y="31" width="1920" height="944" />
+    </state>
+    <state width="1874" height="244" key="GridCell.Tab.0.left/0.31.1920.944@0.31.1920.944" timestamp="1579792022533" />
+    <state width="1874" height="244" key="GridCell.Tab.0.right" timestamp="1579792022534">
+      <screen x="0" y="31" width="1920" height="944" />
+    </state>
+    <state width="1874" height="244" key="GridCell.Tab.0.right/0.31.1920.944@0.31.1920.944" timestamp="1579792022534" />
+    <state x="464" y="140" width="992" height="731" key="SettingsEditor" timestamp="1579787976682">
+      <screen x="0" y="31" width="1920" height="944" />
+    </state>
+    <state x="464" y="140" width="992" height="731" key="SettingsEditor/0.31.1920.944@0.31.1920.944" timestamp="1579787976682" />
+    <state x="555" y="236" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1579717686061">
+      <screen x="0" y="25" width="1920" height="950" />
+    </state>
+    <state x="555" y="236" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.950@0.25.1920.950" timestamp="1579717686061" />
+    <state x="653" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1579788016979">
+      <screen x="0" y="31" width="1920" height="944" />
+    </state>
+    <state x="653" y="333" key="com.intellij.ide.util.TipDialog/0.31.1920.944@0.31.1920.944" timestamp="1579788016979" />
+    <state x="651" y="299" width="610" height="413" key="git4idea.merge.GitPullDialog" timestamp="1579786968315">
+      <screen x="0" y="31" width="1920" height="944" />
+    </state>
+    <state x="651" y="299" width="610" height="413" key="git4idea.merge.GitPullDialog/0.31.1920.944@0.31.1920.944" timestamp="1579786968315" />
   </component>
 </project>

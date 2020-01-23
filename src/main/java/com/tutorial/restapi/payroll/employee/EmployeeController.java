@@ -49,7 +49,7 @@ public class EmployeeController {
 
     // SINGLE ITEMS
 
-    // the return type Resource<T> is a generic container from Spring HATEOAS that includes a collection of links with the data
+    // the return type EntityModel<T> is a generic container from Spring HATEOAS that includes a collection of links with the data
     @GetMapping("/employees/{id}")
     EntityModel<Employee> one(@PathVariable Long id){
 

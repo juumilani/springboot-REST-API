@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@Slf4j
 // Lombok annotation used for log purposes
+@Slf4j
 public class LoadDatabase {
 
     @Bean
